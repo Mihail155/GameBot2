@@ -6,9 +6,9 @@
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
     "build": "react-scripts build",
-    "homepage": "https://ilyapishchulin.github.io/vk-apps-currency/"
+    "homepage": "https://github.com/Mihail155/GameBot2.git",
     "predeploy": "npm run build",
-    "deploy": "vk-miniapps-deploy"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
